@@ -26,7 +26,7 @@ def numbers_and_strings():
     m = y + " is good"
 
     # Replace "good" with "awesome" in variable m and assign it to a new variable n
-    n = m[0:11] + "awesome"
+    n = y.replace("good","awesome")
 
     return x, y, z, length, m, n
 
